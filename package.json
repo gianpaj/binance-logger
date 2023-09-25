@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "binance": "^2.8.10",
+    "lodash": "^4.17.21",
+    "table": "^6.8.1"
+  },
+  "scripts": {
+    "start": "bun index.ts",
+    "watch": "bun --watch index.ts"
+  }
+}
