@@ -49,3 +49,16 @@ win-loss ratio: 32.69 %
 
 - [ ] set start date in CLI
 - [ ] setup cli args
+
+## Telegram Alerts Bot (Deno)
+
+This repository also includes a simple Telegram bot implemented with Deno and grammY.
+It monitors Binance prices and sends ±3% move alerts for the top‑10 symbols by volume.
+
+### Run
+
+```bash
+deno run --allow-net --allow-env bot.ts
+```
+
+Ensure the `BOT_TOKEN` environment variable contains your Telegram bot token before running.
